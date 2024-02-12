@@ -1,0 +1,20 @@
+POST http://localhost:3000/task-configuration
+Content-Type: application/json
+
+{
+    "name": "Task config",
+    "description": "Task configuration config",
+    "daysOfWeek" : 6
+}
+
+###
+
+GET http://localhost:3000/task-configuration
+
+###
+
+GET http://localhost:3000/task-configuration/cn4jf8uv10fdq47d5qag
+
+###
+
+
